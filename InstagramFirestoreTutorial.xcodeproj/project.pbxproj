@@ -21,6 +21,8 @@
 		FF0C792526436E3C0055431E /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C792426436E3C0055431E /* ProfileController.swift */; };
 		FF96DC872644BDC200F97E6D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DC862644BDC200F97E6D /* FeedCell.swift */; };
 		FF96DC8A2644BE9400F97E6D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DC892644BE9400F97E6D /* Extensions.swift */; };
+		FFA4676526460D490073FD30 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676426460D490073FD30 /* LoginController.swift */; };
+		FFA4676926460D590073FD30 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676826460D590073FD30 /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		FF0C792426436E3C0055431E /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		FF96DC862644BDC200F97E6D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		FF96DC892644BE9400F97E6D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FFA4676426460D490073FD30 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		FFA4676826460D590073FD30 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		FF0C790F26436C4F0055431E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FFA4676326460D3A0073FD30 /* Authentication */,
 				FF0C791326436CDF0055431E /* MainTabController.swift */,
 				FF0C791726436E0C0055431E /* FeedController.swift */,
 				FF0C791B26436E160055431E /* SearchController.swift */,
@@ -137,6 +142,15 @@
 				FF96DC862644BDC200F97E6D /* FeedCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FFA4676326460D3A0073FD30 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FFA4676426460D490073FD30 /* LoginController.swift */,
+				FFA4676826460D590073FD30 /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0C78FC26436C1A0055431E /* ViewController.swift in Sources */,
+				FFA4676526460D490073FD30 /* LoginController.swift in Sources */,
 				FF96DC872644BDC200F97E6D /* FeedCell.swift in Sources */,
 				FF0C791F26436E210055431E /* ImageSelectorController.swift in Sources */,
 				FF0C791C26436E160055431E /* SearchController.swift in Sources */,
@@ -220,6 +235,7 @@
 				FF0C792226436E2E0055431E /* NotificationsController.swift in Sources */,
 				FF96DC8A2644BE9400F97E6D /* Extensions.swift in Sources */,
 				FF0C78FA26436C1A0055431E /* SceneDelegate.swift in Sources */,
+				FFA4676926460D590073FD30 /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
