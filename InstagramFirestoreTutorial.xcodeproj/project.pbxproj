@@ -34,6 +34,7 @@
 		FFA467A3264751F80073FD30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467A2264751F80073FD30 /* User.swift */; };
 		FFA467A6264752140073FD30 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467A5264752140073FD30 /* UserService.swift */; };
 		FFA467A9264752480073FD30 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467A8264752480073FD30 /* Constants.swift */; };
+		FFA467AC264756980073FD30 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467AB264756980073FD30 /* ProfileHeaderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		FFA467A2264751F80073FD30 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FFA467A5264752140073FD30 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		FFA467A8264752480073FD30 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FFA467AB264756980073FD30 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				FFA4676E264706990073FD30 /* AuthenticationViewModel.swift */,
+				FFA467AB264756980073FD30 /* ProfileHeaderViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				FFA467A3264751F80073FD30 /* User.swift in Sources */,
 				FF0C78F826436C1A0055431E /* AppDelegate.swift in Sources */,
 				FF0C791826436E0C0055431E /* FeedController.swift in Sources */,
+				FFA467AC264756980073FD30 /* ProfileHeaderViewModel.swift in Sources */,
 				FF0C792526436E3C0055431E /* ProfileController.swift in Sources */,
 				FF0C791426436CDF0055431E /* MainTabController.swift in Sources */,
 				FF0C792226436E2E0055431E /* NotificationsController.swift in Sources */,
