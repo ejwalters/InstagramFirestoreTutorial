@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,6 +27,8 @@
 		FFA4676C2646B7CC0073FD30 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676B2646B7CC0073FD30 /* CustomTextField.swift */; };
 		FFA4676F264706990073FD30 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676E264706990073FD30 /* AuthenticationViewModel.swift */; };
 		FFA46772264713B20073FD30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFA46771264713B20073FD30 /* GoogleService-Info.plist */; };
+		FFA4679526471E400073FD30 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4679426471E400073FD30 /* ImageUploader.swift */; };
+		FFA4679826471E4A0073FD30 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4679726471E4A0073FD30 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		FFA4676B2646B7CC0073FD30 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		FFA4676E264706990073FD30 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		FFA46771264713B20073FD30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFA4679426471E400073FD30 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		FFA4679726471E4A0073FD30 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,6 @@
 				D82478C3620708E132D241CC /* Pods-InstagramFirestoreTutorial.debug.xcconfig */,
 				FA01BA0D38C2B350890EE285 /* Pods-InstagramFirestoreTutorial.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,6 +146,8 @@
 		FF0C790E26436C4D0055431E /* API */ = {
 			isa = PBXGroup;
 			children = (
+				FFA4679426471E400073FD30 /* ImageUploader.swift */,
+				FFA4679726471E4A0073FD30 /* AuthService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -315,6 +320,8 @@
 				FF0C791426436CDF0055431E /* MainTabController.swift in Sources */,
 				FF0C792226436E2E0055431E /* NotificationsController.swift in Sources */,
 				FF96DC8A2644BE9400F97E6D /* Extensions.swift in Sources */,
+				FFA4679526471E400073FD30 /* ImageUploader.swift in Sources */,
+				FFA4679826471E4A0073FD30 /* AuthService.swift in Sources */,
 				FF0C78FA26436C1A0055431E /* SceneDelegate.swift in Sources */,
 				FFA4676926460D590073FD30 /* RegistrationController.swift in Sources */,
 			);
