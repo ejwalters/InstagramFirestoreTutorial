@@ -31,6 +31,9 @@
 		FFA4679826471E4A0073FD30 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4679726471E4A0073FD30 /* AuthService.swift */; };
 		FFA4679B26472F870073FD30 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4679A26472F870073FD30 /* ProfileCell.swift */; };
 		FFA4679E26472F920073FD30 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4679D26472F920073FD30 /* ProfileHeader.swift */; };
+		FFA467A3264751F80073FD30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467A2264751F80073FD30 /* User.swift */; };
+		FFA467A6264752140073FD30 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467A5264752140073FD30 /* UserService.swift */; };
+		FFA467A9264752480073FD30 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467A8264752480073FD30 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		FFA4679726471E4A0073FD30 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FFA4679A26472F870073FD30 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		FFA4679D26472F920073FD30 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		FFA467A2264751F80073FD30 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FFA467A5264752140073FD30 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		FFA467A8264752480073FD30 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 		FF0C790C26436C400055431E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FFA467A2264751F80073FD30 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				FF96DC892644BE9400F97E6D /* Extensions.swift */,
+				FFA467A8264752480073FD30 /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -152,6 +160,7 @@
 			children = (
 				FFA4679426471E400073FD30 /* ImageUploader.swift */,
 				FFA4679726471E4A0073FD30 /* AuthService.swift */,
+				FFA467A5264752140073FD30 /* UserService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -322,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFA4676C2646B7CC0073FD30 /* CustomTextField.swift in Sources */,
+				FFA467A9264752480073FD30 /* Constants.swift in Sources */,
 				FFA4679E26472F920073FD30 /* ProfileHeader.swift in Sources */,
 				FF0C78FC26436C1A0055431E /* ViewController.swift in Sources */,
 				FFA4676526460D490073FD30 /* LoginController.swift in Sources */,
@@ -329,11 +339,13 @@
 				FF0C791F26436E210055431E /* ImageSelectorController.swift in Sources */,
 				FF0C791C26436E160055431E /* SearchController.swift in Sources */,
 				FFA4676F264706990073FD30 /* AuthenticationViewModel.swift in Sources */,
+				FFA467A3264751F80073FD30 /* User.swift in Sources */,
 				FF0C78F826436C1A0055431E /* AppDelegate.swift in Sources */,
 				FF0C791826436E0C0055431E /* FeedController.swift in Sources */,
 				FF0C792526436E3C0055431E /* ProfileController.swift in Sources */,
 				FF0C791426436CDF0055431E /* MainTabController.swift in Sources */,
 				FF0C792226436E2E0055431E /* NotificationsController.swift in Sources */,
+				FFA467A6264752140073FD30 /* UserService.swift in Sources */,
 				FF96DC8A2644BE9400F97E6D /* Extensions.swift in Sources */,
 				FFA4679526471E400073FD30 /* ImageUploader.swift in Sources */,
 				FFA4679826471E4A0073FD30 /* AuthService.swift in Sources */,

@@ -15,13 +15,25 @@ class ProfileController: UICollectionViewController {
     
     // MARK: - Properties
     
-    // MARK: - Lifecycle
+    var user: User? {
+        didSet { navigationItem.title = user?.username }
+    }
     
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureCollectionView()
+        fetchUser()
         
+    }
+    
+    // MARK: - API
+    
+    func fetchUser() {
+        UserService.fetchUser { user in
+            self.user = user
+        }
     }
     
     
@@ -32,8 +44,6 @@ class ProfileController: UICollectionViewController {
         collectionView.register(ProfileCell.self, forCellWithReuseIdentifier: cellIdentifier)
         collectionView.register(ProfileHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerIdentifier)
     }
-    
-    
 }
 
 
