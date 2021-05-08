@@ -12,6 +12,8 @@ class LoginController: UIViewController {
     
     // MARK: - Properties
     
+    private var viewModel = LoginViewModel()
+    
     private let iconImage: UIImageView = {
         let iv = UIImageView(image: #imageLiteral(resourceName: "Instagram_logo_white"))
         iv.contentMode = .scaleAspectFill
@@ -25,22 +27,25 @@ class LoginController: UIViewController {
         return tf
     }()
     
+    private let passwordTextField: UITextField = {
+        let tf = CustomTextField(placeholder: "Password")
+        tf.isSecureTextEntry = true
+        return tf
+    }()
+    
     private let loginButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Log In", for: .normal)
         button.setTitleColor(.white, for: .normal)
-        button.backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
+        button.backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1).withAlphaComponent(0.5)
+        button.isEnabled = false
         button.setHeight(50)
         button.layer.cornerRadius = 5
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         return button
     }()
     
-    private let passwordTextField: UITextField = {
-        let tf = CustomTextField(placeholder: "Password")
-        tf.isSecureTextEntry = true
-        return tf
-    }()
+
     
     private let dontHaveAccountButton: UIButton = {
         let button = UIButton(type: .system)
@@ -64,6 +69,7 @@ class LoginController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
+        configureNotificationObservers()
     }
     
     // MARK: - Actions
@@ -73,9 +79,20 @@ class LoginController: UIViewController {
         navigationController?.pushViewController(controller, animated: true)
     }
     
+    @objc func textDidChange(sender: UITextField) {
+        if sender == emailTextField {
+            viewModel.email = sender.text
+        } else {
+            viewModel.password = sender.text
+        }
+        updateForm()
+    }
+    
+    
     
     
     // MARK: - Helpers
+    
     func configureUI () {
         configureGradientLayer()
         navigationController?.navigationBar.isHidden = true
@@ -100,4 +117,22 @@ class LoginController: UIViewController {
         
     }
     
+    func configureNotificationObservers() {
+        emailTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
+        passwordTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
+
+    }
+    
+}
+
+// MARK: - FormViewModel
+
+extension LoginController: FormViewModel {
+    
+    func updateForm() {
+        loginButton.backgroundColor = viewModel.buttonBackgroundColor
+        loginButton.setTitleColor(viewModel.buttonTitleColor, for: .normal)
+        loginButton.isEnabled = viewModel.formIsValid
+    }
+
 }

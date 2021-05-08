@@ -24,6 +24,7 @@
 		FFA4676526460D490073FD30 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676426460D490073FD30 /* LoginController.swift */; };
 		FFA4676926460D590073FD30 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676826460D590073FD30 /* RegistrationController.swift */; };
 		FFA4676C2646B7CC0073FD30 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676B2646B7CC0073FD30 /* CustomTextField.swift */; };
+		FFA4676F264706990073FD30 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676E264706990073FD30 /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		FFA4676426460D490073FD30 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		FFA4676826460D590073FD30 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		FFA4676B2646B7CC0073FD30 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FFA4676E264706990073FD30 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		FF0C791026436C500055431E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FFA4676E264706990073FD30 /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				FF96DC872644BDC200F97E6D /* FeedCell.swift in Sources */,
 				FF0C791F26436E210055431E /* ImageSelectorController.swift in Sources */,
 				FF0C791C26436E160055431E /* SearchController.swift in Sources */,
+				FFA4676F264706990073FD30 /* AuthenticationViewModel.swift in Sources */,
 				FF0C78F826436C1A0055431E /* AppDelegate.swift in Sources */,
 				FF0C791826436E0C0055431E /* FeedController.swift in Sources */,
 				FF0C792526436E3C0055431E /* ProfileController.swift in Sources */,
