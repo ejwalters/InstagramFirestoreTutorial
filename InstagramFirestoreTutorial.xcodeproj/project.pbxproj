@@ -21,6 +21,8 @@
 		FF0C792226436E2E0055431E /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C792126436E2E0055431E /* NotificationsController.swift */; };
 		FF0C792526436E3C0055431E /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C792426436E3C0055431E /* ProfileController.swift */; };
 		FF2E393D2647FC0C00AA074D /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E393C2647FC0C00AA074D /* UserCellViewModel.swift */; };
+		FF2E394026481AD000AA074D /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E393F26481AD000AA074D /* UploadPostController.swift */; };
+		FF2E394326481DD400AA074D /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E394226481DD400AA074D /* InputTextView.swift */; };
 		FF96DC872644BDC200F97E6D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DC862644BDC200F97E6D /* FeedCell.swift */; };
 		FF96DC8A2644BE9400F97E6D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DC892644BE9400F97E6D /* Extensions.swift */; };
 		FFA4676526460D490073FD30 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676426460D490073FD30 /* LoginController.swift */; };
@@ -58,6 +60,8 @@
 		FF0C792126436E2E0055431E /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
 		FF0C792426436E3C0055431E /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		FF2E393C2647FC0C00AA074D /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
+		FF2E393F26481AD000AA074D /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
+		FF2E394226481DD400AA074D /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 		FF96DC862644BDC200F97E6D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		FF96DC892644BE9400F97E6D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FFA4676426460D490073FD30 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 			children = (
 				FF96DC892644BE9400F97E6D /* Extensions.swift */,
 				FFA467A8264752480073FD30 /* Constants.swift */,
+				FF2E394226481DD400AA074D /* InputTextView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				FF0C791E26436E210055431E /* ImageSelectorController.swift */,
 				FF0C792126436E2E0055431E /* NotificationsController.swift */,
 				FF0C792426436E3C0055431E /* ProfileController.swift */,
+				FF2E393F26481AD000AA074D /* UploadPostController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 			files = (
 				FFA4676C2646B7CC0073FD30 /* CustomTextField.swift in Sources */,
 				FFA467A9264752480073FD30 /* Constants.swift in Sources */,
+				FF2E394026481AD000AA074D /* UploadPostController.swift in Sources */,
 				FFA4679E26472F920073FD30 /* ProfileHeader.swift in Sources */,
 				FF0C78FC26436C1A0055431E /* ViewController.swift in Sources */,
 				FFA4676526460D490073FD30 /* LoginController.swift in Sources */,
@@ -353,6 +360,7 @@
 				FF0C78F826436C1A0055431E /* AppDelegate.swift in Sources */,
 				FF0C791826436E0C0055431E /* FeedController.swift in Sources */,
 				FFA467AC264756980073FD30 /* ProfileHeaderViewModel.swift in Sources */,
+				FF2E394326481DD400AA074D /* InputTextView.swift in Sources */,
 				FF0C792526436E3C0055431E /* ProfileController.swift in Sources */,
 				FF0C791426436CDF0055431E /* MainTabController.swift in Sources */,
 				FF2E393D2647FC0C00AA074D /* UserCellViewModel.swift in Sources */,
