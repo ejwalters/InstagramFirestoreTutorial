@@ -35,6 +35,7 @@
 		FFA467A6264752140073FD30 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467A5264752140073FD30 /* UserService.swift */; };
 		FFA467A9264752480073FD30 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467A8264752480073FD30 /* Constants.swift */; };
 		FFA467AC264756980073FD30 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467AB264756980073FD30 /* ProfileHeaderViewModel.swift */; };
+		FFA467AF26476DF50073FD30 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA467AE26476DF50073FD30 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		FFA467A5264752140073FD30 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		FFA467A8264752480073FD30 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FFA467AB264756980073FD30 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
+		FFA467AE26476DF50073FD30 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				FFA467A026472F970073FD30 /* Profile */,
 				FF96DC862644BDC200F97E6D /* FeedCell.swift */,
 				FFA4676B2646B7CC0073FD30 /* CustomTextField.swift */,
+				FFA467AE26476DF50073FD30 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				FF96DC872644BDC200F97E6D /* FeedCell.swift in Sources */,
 				FF0C791F26436E210055431E /* ImageSelectorController.swift in Sources */,
 				FF0C791C26436E160055431E /* SearchController.swift in Sources */,
+				FFA467AF26476DF50073FD30 /* UserCell.swift in Sources */,
 				FFA4676F264706990073FD30 /* AuthenticationViewModel.swift in Sources */,
 				FFA467A3264751F80073FD30 /* User.swift in Sources */,
 				FF0C78F826436C1A0055431E /* AppDelegate.swift in Sources */,
