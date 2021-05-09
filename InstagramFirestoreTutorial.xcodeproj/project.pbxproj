@@ -20,6 +20,7 @@
 		FF0C791F26436E210055431E /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C791E26436E210055431E /* ImageSelectorController.swift */; };
 		FF0C792226436E2E0055431E /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C792126436E2E0055431E /* NotificationsController.swift */; };
 		FF0C792526436E3C0055431E /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C792426436E3C0055431E /* ProfileController.swift */; };
+		FF2E393D2647FC0C00AA074D /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E393C2647FC0C00AA074D /* UserCellViewModel.swift */; };
 		FF96DC872644BDC200F97E6D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DC862644BDC200F97E6D /* FeedCell.swift */; };
 		FF96DC8A2644BE9400F97E6D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DC892644BE9400F97E6D /* Extensions.swift */; };
 		FFA4676526460D490073FD30 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676426460D490073FD30 /* LoginController.swift */; };
@@ -56,6 +57,7 @@
 		FF0C791E26436E210055431E /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
 		FF0C792126436E2E0055431E /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
 		FF0C792426436E3C0055431E /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		FF2E393C2647FC0C00AA074D /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
 		FF96DC862644BDC200F97E6D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		FF96DC892644BE9400F97E6D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FFA4676426460D490073FD30 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			children = (
 				FFA4676E264706990073FD30 /* AuthenticationViewModel.swift */,
 				FFA467AB264756980073FD30 /* ProfileHeaderViewModel.swift */,
+				FF2E393C2647FC0C00AA074D /* UserCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				FFA467AC264756980073FD30 /* ProfileHeaderViewModel.swift in Sources */,
 				FF0C792526436E3C0055431E /* ProfileController.swift in Sources */,
 				FF0C791426436CDF0055431E /* MainTabController.swift in Sources */,
+				FF2E393D2647FC0C00AA074D /* UserCellViewModel.swift in Sources */,
 				FF0C792226436E2E0055431E /* NotificationsController.swift in Sources */,
 				FFA467A6264752140073FD30 /* UserService.swift in Sources */,
 				FF96DC8A2644BE9400F97E6D /* Extensions.swift in Sources */,
