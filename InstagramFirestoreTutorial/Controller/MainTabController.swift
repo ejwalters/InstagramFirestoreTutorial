@@ -22,10 +22,8 @@ class MainTabController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         checkIfUserIsLoggedIn()
         fetchUser()
-        //logout()
     }
     
     // MARK: - API
@@ -75,7 +73,6 @@ class MainTabController: UITabBarController {
         nav.tabBarItem.selectedImage = selectedImage
         nav.navigationBar.tintColor = .black
         return nav
-        
     }
     
     func didFinishPickingMedia(_ picker: YPImagePicker) {

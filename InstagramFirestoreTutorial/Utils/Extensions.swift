@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import JGProgressHUD
+import JGProgressHUD
 
 
 extension UIButton {
@@ -26,7 +26,7 @@ extension UIButton {
 }
 
 extension UIViewController {
-    //static let hud = JGProgressHUD(style: .dark)
+    static let hud = JGProgressHUD(style: .dark)
     
     func configureGradientLayer() {
         let gradient = CAGradientLayer()
@@ -36,7 +36,7 @@ extension UIViewController {
         gradient.frame = view.frame
     }
     
-    /*func showLoader(_ show: Bool) {
+    func showLoader(_ show: Bool) {
         view.endEditing(true)
         
         if show {
@@ -44,7 +44,7 @@ extension UIViewController {
         } else {
             UIViewController.hud.dismiss()
         }
-    }*/
+    }
     
     func showMessage(withTitle title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
