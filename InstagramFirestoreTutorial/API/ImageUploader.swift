@@ -7,7 +7,7 @@
 
 import FirebaseStorage
 
-struct imageUploader {
+struct ImageUploader {
     
     static func uploadImage(image: UIImage, completion: @escaping(String) -> Void) {
         
