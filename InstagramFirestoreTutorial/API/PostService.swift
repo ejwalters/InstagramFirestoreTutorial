@@ -17,7 +17,7 @@ struct PostService {
             let data = ["caption": caption,
                         "timestamp": Timestamp(date: Date()),
                         "likes": 0,
-                        "imageUrul": imageUrl,
+                        "imageUrl": imageUrl,
                         "ownerUid": uid] as [String : Any]
             
             COLLECITON_POSTS.addDocument(data: data, completion: completion)
