@@ -10,6 +10,10 @@ import UIKit
 class CommentCell: UICollectionViewCell {
     
     // MARK: - Properties
+    
+    var viewModel: CommentViewModel? {
+        didSet { configure() }
+    }
     private let profileImageView: UIImageView = {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFill
@@ -19,20 +23,15 @@ class CommentCell: UICollectionViewCell {
         return iv
     }()
     
-    private let commentLabel: UILabel = {
-        let label = UILabel()
-        let attributedString = NSMutableAttributedString(string: "joker ", attributes: [.font: UIFont.boldSystemFont(ofSize: 14)])
-        attributedString.append(NSAttributedString(string: "Some test comment", attributes: [.font: UIFont.systemFont(ofSize: 14)]))
-        label.attributedText = attributedString
-        
-        return label
-    }()
+    private let commentLabel = UILabel()
     
     
     // MARK: - Lifecycle
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        commentLabel.numberOfLines = 0
         
         addSubview(profileImageView)
         profileImageView.centerY(inView: self, leftAnchor: leftAnchor, paddingLeft: 8)
@@ -42,10 +41,21 @@ class CommentCell: UICollectionViewCell {
         
         addSubview(commentLabel)
         commentLabel.centerY(inView: profileImageView, leftAnchor: profileImageView.rightAnchor, paddingLeft: 8)
+        commentLabel.anchor(right: rightAnchor, paddingRight: 8)
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    
+    // MARK: - Helpers
+    
+    func configure() {
+        guard let viewModel = viewModel else { return }
+        
+        profileImageView.sd_setImage(with: viewModel.profileImageUrl)
+        commentLabel.attributedText = viewModel.commentLabelText()
     }
     
     
