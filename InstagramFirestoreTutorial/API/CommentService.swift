@@ -13,13 +13,13 @@ struct CommentService {
         
         let data: [String: Any] = ["uid": user.uid, "comment": comment, "timestamp": Timestamp(date:Date()), "profileImageUrl": user.profileImageUrl, "username": user.username]
         
-        COLLECITON_POSTS.document(postID).collection("comments").addDocument(data: data, completion: completion)
+        COLLECTION_POSTS.document(postID).collection("comments").addDocument(data: data, completion: completion)
         
     }
     
     static func fetchComment(forPost postId: String, completion: @escaping([Comment]) -> Void) {
         var comments = [Comment]()
-        let query = COLLECITON_POSTS.document(postId).collection("comments").order(by: "timestamp", descending: true)
+        let query = COLLECTION_POSTS.document(postId).collection("comments").order(by: "timestamp", descending: true)
 
         
         query.addSnapshotListener { (snapshot, error) in
