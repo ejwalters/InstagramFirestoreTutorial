@@ -32,6 +32,7 @@
 		FF3F71F4264B472600857BAF /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F71F3264B472600857BAF /* CommentController.swift */; };
 		FF3F71F7264B484C00857BAF /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F71F6264B484C00857BAF /* CommentCell.swift */; };
 		FF3F71FA264B4ED000857BAF /* CommentInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F71F9264B4ED000857BAF /* CommentInputAccessoryView.swift */; };
+		FF67FA24264FEA22000191DB /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF67FA23264FEA22000191DB /* NotificationCell.swift */; };
 		FF96DC872644BDC200F97E6D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DC862644BDC200F97E6D /* FeedCell.swift */; };
 		FF96DC8A2644BE9400F97E6D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DC892644BE9400F97E6D /* Extensions.swift */; };
 		FFA4676526460D490073FD30 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676426460D490073FD30 /* LoginController.swift */; };
@@ -80,6 +81,7 @@
 		FF3F71F3264B472600857BAF /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
 		FF3F71F6264B484C00857BAF /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		FF3F71F9264B4ED000857BAF /* CommentInputAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputAccessoryView.swift; sourceTree = "<group>"; };
+		FF67FA23264FEA22000191DB /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		FF96DC862644BDC200F97E6D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		FF96DC892644BE9400F97E6D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FFA4676426460D490073FD30 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				FFA467AE26476DF50073FD30 /* UserCell.swift */,
 				FF3F71F6264B484C00857BAF /* CommentCell.swift */,
 				FF3F71F9264B4ED000857BAF /* CommentInputAccessoryView.swift */,
+				FF67FA23264FEA22000191DB /* NotificationCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				FFA4679826471E4A0073FD30 /* AuthService.swift in Sources */,
 				FFA4679B26472F870073FD30 /* ProfileCell.swift in Sources */,
 				FF0C78FA26436C1A0055431E /* SceneDelegate.swift in Sources */,
+				FF67FA24264FEA22000191DB /* NotificationCell.swift in Sources */,
 				FFA4676926460D590073FD30 /* RegistrationController.swift in Sources */,
 				FF3F71F7264B484C00857BAF /* CommentCell.swift in Sources */,
 			);
