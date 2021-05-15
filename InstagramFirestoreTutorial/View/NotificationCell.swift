@@ -11,6 +11,12 @@ import UIKit
 class NotificationCell: UITableViewCell {
     
     // MARK: - Properties
+    
+    var viewModel: NotificationViewModel? {
+        didSet {
+            configure()
+        }
+    }
     private let profileImageView: UIImageView = {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFill
@@ -88,6 +94,12 @@ class NotificationCell: UITableViewCell {
     
     
     // MARK: - Helpers
+    
+    func configure() {
+        guard let viewModel = viewModel else { return }
+        
+        profileImageView.sd_setImage(with: viewModel.profileImageUrl)
+    }
     
     // MARK: - Actions
     
