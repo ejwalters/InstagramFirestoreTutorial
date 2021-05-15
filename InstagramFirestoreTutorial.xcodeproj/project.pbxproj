@@ -33,6 +33,7 @@
 		FF3F71F7264B484C00857BAF /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F71F6264B484C00857BAF /* CommentCell.swift */; };
 		FF3F71FA264B4ED000857BAF /* CommentInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F71F9264B4ED000857BAF /* CommentInputAccessoryView.swift */; };
 		FF67FA24264FEA22000191DB /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF67FA23264FEA22000191DB /* NotificationCell.swift */; };
+		FF67FA27264FEEF4000191DB /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF67FA26264FEEF4000191DB /* Notification.swift */; };
 		FF96DC872644BDC200F97E6D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DC862644BDC200F97E6D /* FeedCell.swift */; };
 		FF96DC8A2644BE9400F97E6D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DC892644BE9400F97E6D /* Extensions.swift */; };
 		FFA4676526460D490073FD30 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4676426460D490073FD30 /* LoginController.swift */; };
@@ -82,6 +83,7 @@
 		FF3F71F6264B484C00857BAF /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		FF3F71F9264B4ED000857BAF /* CommentInputAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputAccessoryView.swift; sourceTree = "<group>"; };
 		FF67FA23264FEA22000191DB /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		FF67FA26264FEEF4000191DB /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		FF96DC862644BDC200F97E6D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		FF96DC892644BE9400F97E6D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FFA4676426460D490073FD30 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				FFA467A2264751F80073FD30 /* User.swift */,
 				FF09037E2649FE980060FD87 /* Post.swift */,
 				FF073B47264BDF6D009E88CA /* Comment.swift */,
+				FF67FA26264FEEF4000191DB /* Notification.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				FF96DC872644BDC200F97E6D /* FeedCell.swift in Sources */,
 				FF073B45264BDC39009E88CA /* CommentService.swift in Sources */,
 				FF073B48264BDF6D009E88CA /* Comment.swift in Sources */,
+				FF67FA27264FEEF4000191DB /* Notification.swift in Sources */,
 				FF0C791F26436E210055431E /* ImageSelectorController.swift in Sources */,
 				FF0C791C26436E160055431E /* SearchController.swift in Sources */,
 				FFA467AF26476DF50073FD30 /* UserCell.swift in Sources */,
