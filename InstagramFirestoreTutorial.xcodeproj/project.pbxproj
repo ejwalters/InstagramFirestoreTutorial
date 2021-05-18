@@ -28,6 +28,7 @@
 		FF2E393D2647FC0C00AA074D /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E393C2647FC0C00AA074D /* UserCellViewModel.swift */; };
 		FF2E394026481AD000AA074D /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E393F26481AD000AA074D /* UploadPostController.swift */; };
 		FF2E394326481DD400AA074D /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E394226481DD400AA074D /* InputTextView.swift */; };
+		FF37B60E2653C70000A8B0BD /* ResetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF37B60D2653C70000A8B0BD /* ResetPasswordController.swift */; };
 		FF3E8F06264CAADA0035034B /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E8F05264CAADA0035034B /* CommentViewModel.swift */; };
 		FF3F71F4264B472600857BAF /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F71F3264B472600857BAF /* CommentController.swift */; };
 		FF3F71F7264B484C00857BAF /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F71F6264B484C00857BAF /* CommentCell.swift */; };
@@ -80,6 +81,7 @@
 		FF2E393C2647FC0C00AA074D /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
 		FF2E393F26481AD000AA074D /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
 		FF2E394226481DD400AA074D /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
+		FF37B60D2653C70000A8B0BD /* ResetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordController.swift; sourceTree = "<group>"; };
 		FF3E8F05264CAADA0035034B /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
 		FF3F71F3264B472600857BAF /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
 		FF3F71F6264B484C00857BAF /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 			children = (
 				FFA4676426460D490073FD30 /* LoginController.swift */,
 				FFA4676826460D590073FD30 /* RegistrationController.swift */,
+				FF37B60D2653C70000A8B0BD /* ResetPasswordController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				FF3F71FA264B4ED000857BAF /* CommentInputAccessoryView.swift in Sources */,
 				FFA467AC264756980073FD30 /* ProfileHeaderViewModel.swift in Sources */,
 				FF2E394326481DD400AA074D /* InputTextView.swift in Sources */,
+				FF37B60E2653C70000A8B0BD /* ResetPasswordController.swift in Sources */,
 				FF0C792526436E3C0055431E /* ProfileController.swift in Sources */,
 				FF0C791426436CDF0055431E /* MainTabController.swift in Sources */,
 				FF2E393D2647FC0C00AA074D /* UserCellViewModel.swift in Sources */,
